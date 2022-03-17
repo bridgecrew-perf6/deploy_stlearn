@@ -16,10 +16,6 @@ git clone https://github.com/BiomedicalMachineLearning/stlearn_interactive.git f
 bash run_docker.sh
 ```
 
-You now can access stLearn at `localhost:8000`
-
-If the address doesn't work, we need to find the container IP address by 2 optional steps here:
-
 - Step 3: Check the container ID of docker by
 
 ```
