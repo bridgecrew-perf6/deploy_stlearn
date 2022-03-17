@@ -31,3 +31,5 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <The
 ```
 
 - Step 5: Access stLearn at `<IP address>:8000`
+
+To turn off the stLearn interactive, use `docker-compose down`
